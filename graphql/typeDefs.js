@@ -8,6 +8,8 @@ module.exports = gql`
     userName: String!
     comments: [Comment]!
     likes: [Like]!
+    likeCount: Int!
+    commentCount: Int!
   }
   input RegisterInput {
     userName: String!
